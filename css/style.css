@@ -1,0 +1,172 @@
+/* ================== RESET ================== */
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* ================== HEADER ================== */
+
+header{
+    background-color: #00004d;
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 25px;
+}
+
+header .redes-sociais{
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+}
+
+header .redes-sociais a{
+    margin-right: 10px;
+    background-color: rgba(255,255,255,0.1);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.1em;
+    border-radius: 50%;
+    color: white;
+}
+
+header .logo{
+    margin-right: 350px;
+    margin-top: 2px;
+}
+
+header .redes-sociais a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+#nav-header{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #f5f6fa;
+}
+
+#nav-header a{
+    color: #325985;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    transition: 0.3s;
+    font-family: 'Oswald', sans-serif;
+    padding: 15px 15px;
+    border-bottom: 3px solid white;
+}
+
+#nav-header a:hover{
+    border-bottom: 3px solid #00a8ff;
+}
+
+/* ================== MAIN ================== */
+
+main{
+    display: flex;
+}
+main article{
+    padding: 80px 75px;
+}
+
+#titulo-principal{
+    font-size: 3em;
+    padding: 80px 75px 0 75px;
+    font-family: 'Oswald', sans-serif;
+}
+
+main article img{
+    max-width: 800px;
+    margin-bottom: 25px;
+}
+
+main article p{
+    max-width: 800px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+
+/* ================== ASIDE ================== */
+
+main aside{
+    padding: 80px 0;
+}
+
+main aside img{
+    width: 150px;
+    margin-right: 15px;
+}
+
+main aside .news{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+main aside .news h2{
+    width: 250px;
+    font-family: 'Oswald', sans-serif;
+}
+
+/* ================== FOOTER ================== */
+footer{
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+
+footer .redes-sociais{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+footer .redes-sociais a{
+    margin-right: 10px;
+    background-color: rgba(255,255,255,0.1);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.1em;
+    border-radius: 50%;
+    color: white;
+}
+
+footer .redes-sociais a:hover{
+    background-color: rgba(255,255,255,0.2);
+}
+
+footer #nav-footer{
+    margin-top: 30px;
+}
+
+footer #nav-footer a{
+    color: #777;
+    text-transform: uppercase;
+    margin-left: 25px;
+    font-size: 0.9em;
+    transition: 0.3s;
+    font-family: 'Oswald', sans-serif;
+}
+
+footer #nav-footer a:hover{
+    color: white;
+}
+
+.pos-footer{
+    padding: 20px 0;
+    text-align: center;
+    background-color: #000;
+    color: #777;
+    font-size: 0.9em;
+}
